@@ -1,0 +1,222 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 8.1  (6.3.0) 64bit' Language: 'en' Physical Memory: 8191 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Dawid/Mini-Golf-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56832
+Successfully changed project path to: C:/Users/Dawid/Mini-Golf-master
+C:/Users/Dawid/Mini-Golf-master
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Dawid/Mini-Golf-master/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   
+    VRAM:     1963 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002167 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.036 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.485 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 15.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.8 MB.
+System memory in use after: 65.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 4.843928 ms (FindLiveObjects: 0.545660 ms CreateObjectMapping: 0.100516 ms MarkObjects: 4.011717 ms  DeleteObjects: 0.183163 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/MiniGolf
+  artifactKey: Guid(6edeba5bd185a8744b958d2890fd7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf using Guid(6edeba5bd185a8744b958d2890fd7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5d2b80b14cc3ba4a14ff2a7295b6bd') in 0.009492 seconds
+  Import took 0.014273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.724014 seconds.
+  path: Assets/MiniGolf/Scripts
+  artifactKey: Guid(915ae8c525d436745bbb3233bf5cbce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Scripts using Guid(915ae8c525d436745bbb3233bf5cbce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2afbca9486e98c7c95d0bde716f81a') in 0.004841 seconds
+  Import took 0.012518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816930 seconds.
+  path: Assets/MiniGolf/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984d627a0dd8619b4766fd73c4b7ad46') in 0.018394 seconds
+  Import took 0.024461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.287806 seconds.
+  path: Assets/MiniGolf/GameAssets
+  artifactKey: Guid(e41324c51365425408ef3d4c35088bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/GameAssets using Guid(e41324c51365425408ef3d4c35088bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d78447ad999592ecb8a360ed54e61e') in 0.003137 seconds
+  Import took 0.010030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069258 seconds.
+  path: Assets/MiniGolf/GameAssets/Square.ttf
+  artifactKey: Guid(2405baf5befe1f94abe0efb97286e515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/GameAssets/Square.ttf using Guid(2405baf5befe1f94abe0efb97286e515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c00221e8e7f484fea9816efce2967f') in 0.236618 seconds
+  Import took 0.240465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.703323 seconds.
+  path: Assets/MiniGolf/Prefabs
+  artifactKey: Guid(289c6cbe5fb5b1a4ca633638a43f04ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs using Guid(289c6cbe5fb5b1a4ca633638a43f04ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2343871aa84e985a0d4a6d19c74c61') in 0.002027 seconds
+  Import took 0.005694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058575 seconds.
+  path: Assets/MiniGolf/Prefabs/Ball.prefab
+  artifactKey: Guid(29164484c8d97814284015c77f35de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/Ball.prefab using Guid(29164484c8d97814284015c77f35de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e10aa5352b51297f38fbb8e9e7f9ea') in 0.501332 seconds
+  Import took 0.506051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000980 seconds.
+  path: Assets/MiniGolf/Prefabs/LvlButtonPrefab.prefab
+  artifactKey: Guid(e44260a648e5b0c4ca18f06396846541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/LvlButtonPrefab.prefab using Guid(e44260a648e5b0c4ca18f06396846541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9b6c45c186354400f98692a517ae8d') in 0.034080 seconds
+  Import took 0.038303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001842 seconds.
+  path: Assets/MiniGolf/Prefabs/LvlButtonPrefab.prefab
+  artifactKey: Guid(e44260a648e5b0c4ca18f06396846541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/LvlButtonPrefab.prefab using Guid(e44260a648e5b0c4ca18f06396846541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9b6c45c186354400f98692a517ae8d') in 0.009323 seconds
+  Import took 0.014489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.301997 seconds.
+  path: Assets/MiniGolf/Prefabs/Levels
+  artifactKey: Guid(71aac9233874396488b2678dcc775b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/Levels using Guid(71aac9233874396488b2678dcc775b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47815e369f80fc11a92b1161766ba05c') in 0.002630 seconds
+  Import took 0.006330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003334 seconds.
+  path: Assets/MiniGolf/Prefabs/Levels
+  artifactKey: Guid(71aac9233874396488b2678dcc775b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/Levels using Guid(71aac9233874396488b2678dcc775b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47815e369f80fc11a92b1161766ba05c') in 0.002311 seconds
+  Import took 0.006585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051860 seconds.
+  path: Assets/MiniGolf/Prefabs/Levels/Level1.prefab
+  artifactKey: Guid(1a98e835830028944a49be86bcbf4158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/Levels/Level1.prefab using Guid(1a98e835830028944a49be86bcbf4158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5bbb81d9dc0081f585a39c05cf3231') in 0.017422 seconds
+  Import took 0.022709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/MiniGolf/Prefabs/Levels/Level5.prefab
+  artifactKey: Guid(a5beecb27aac45347b00aea64f9b0b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/Levels/Level5.prefab using Guid(a5beecb27aac45347b00aea64f9b0b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97661c35e2d1b0f2db7436d3f9104d4e') in 0.019381 seconds
+  Import took 0.023926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MiniGolf/Prefabs/Levels/Level4.prefab
+  artifactKey: Guid(f732f251a96c73e468865d235b8cf285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/Levels/Level4.prefab using Guid(f732f251a96c73e468865d235b8cf285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e137653548682463ae12326aabe3028') in 0.059234 seconds
+  Import took 0.063469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/MiniGolf/Prefabs/Levels/Level2.prefab
+  artifactKey: Guid(7f88a8d989da3864a97c0c6520b61750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/Levels/Level2.prefab using Guid(7f88a8d989da3864a97c0c6520b61750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb3d25a75de6e243fee044e1b63c5d5') in 0.018816 seconds
+  Import took 0.022779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/MiniGolf/Prefabs/Levels/Level3.prefab
+  artifactKey: Guid(bd59e3fe26794124bbb9de6ac5ecaf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGolf/Prefabs/Levels/Level3.prefab using Guid(bd59e3fe26794124bbb9de6ac5ecaf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e3eee3574d1fa4102c648617eee69e') in 0.025775 seconds
+  Import took 0.030570 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 3.566255 ms (FindLiveObjects: 0.432061 ms CreateObjectMapping: 0.090624 ms MarkObjects: 3.001130 ms  DeleteObjects: 0.040207 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
